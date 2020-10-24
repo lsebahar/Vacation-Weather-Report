@@ -73,6 +73,15 @@ Did you know that toilets flush in the opposite direction south of the Equator? 
 
 This project sets out to analyze & visualize weather patterns in cities across the world, to help you find the best vacation spots. Here's how it works:
 
+1) Use numpy to generate random pairings of latitudes & longitudes
+
+2) Use citipy to find the nearest city to all those pairings of coordinates
+
+3) Perform calls to openweathermap API to get weather data on those cities
+
+4) Store results in a dataframe
+
+5) Plot the data using matplotlib's pyplot
 
 
 
@@ -80,8 +89,9 @@ This project sets out to analyze & visualize weather patterns in cities across t
 
 * Jupyter Notebook
 * Python
-* JSON
-* Gmaps
+* Pandas
+* matplotlib
+* Scipy
 
 
 
