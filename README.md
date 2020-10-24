@@ -75,13 +75,22 @@ This project sets out to analyze & visualize weather patterns in cities across t
 
 1) Use numpy to generate random pairings of latitudes & longitudes
 
+<img src="Images/random_cities.png" alt="Logo" width="300" height="200">
+
 2) Use citipy to find the nearest city to all those pairings of coordinates
+
 
 3) Perform calls to openweathermap API to get weather data on those cities
 
+<img src="Images/api_call" alt="Logo" width="300" height="200">
+
 4) Store results in a dataframe
 
+<img src="Images/dataframe.png" alt="Logo" width="300" height="200">
+
 5) Plot the data using matplotlib's pyplot
+
+<img src="Images/plot_trends.png" alt="Logo" width="300" height="200">
 
 
 
