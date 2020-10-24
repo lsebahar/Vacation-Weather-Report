@@ -77,7 +77,7 @@ This project sets out to analyze & visualize weather patterns in cities across t
 
 <img src="Images/z_random_cities.png" alt="Logo" width="300" height="200">
 
-
+ 
 2) Use citipy to find the nearest city to all those pairings of coordinates
 
 
