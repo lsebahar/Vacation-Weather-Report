@@ -111,14 +111,14 @@ git clone https://github.com/lsebahar/Vacation-Weather-Report-Generator.git
 ```
 
 
-2) Add to the "VacationPy" & "WeatherPy" folders a config.py file which contains the variable g_key (for your gmaps key) as well as a weather_api_key 
+2) Add a config.py file which contains the variables g_key and weather_api_key to the "VacationPy" & "WeatherPy" folders
 
 
 
 3) Run the WeatherPy Jupyter Notebook file (all of the cells)
 
 
-4) Then, run the VacationPy file
+4) Then, run the VacationPy file (also all of the cells)
 
 
 5) These should generate various charts which will help you understand where the weather is good and when!
