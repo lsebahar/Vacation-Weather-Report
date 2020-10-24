@@ -138,10 +138,12 @@ git clone https://github.com/lsebahar/Vacation-Weather-Report-Generator.git
 ## Usage
 
 Check out the the relationship between latitude and temperature in the Northern Hemisphere: 
+
 <img src="Images/Latitude_vs_Temp_northhemi.png" alt="Logo" width="300" height="200">
 
 
 Or how Humidity correlates with Latitude:
+
 <img src="Images/Latitude_vs_Humidity_all.png" alt="Logo" width="300" height="200">
 
 
