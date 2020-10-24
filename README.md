@@ -34,7 +34,7 @@
   <h3 align="center">Vacation Weather Checker</h3>
 
   <p align="center">
-    Leveraging API's to help you prepare for your vacation!
+    Leveraging API's to help you pick your vacation!
     <br />
     <a href="https://github.com/lsebahar/Vacation-Weather-Report-Generator"><strong>Explore the docs »</strong></a>
     <br />
@@ -69,9 +69,11 @@
 ## About The Project
 
 
-Netflix binges have become, for better or worse, part of American culture. With movies chock-full of data, we got an idea--are these unintentional all-day viewing parties-of-one just as random as what catches the viewer's attention? What kind of interesting trends do people have in their viewing history? 
+Did you know that toilets flush in the opposite direction south of the Equator? Well, it kinda depends on the design of the toilet, but it is undeniably true that the seasons are flipped Down Under, and there is data to prove it!    
 
-We set out to create an ETL process to empower a user to query stats and discern trends. The general process is relatively simple. Download viewing history data from Netflix. Clean that data, then use the titles to pull data related to cast, genre, etc from the Open Movie Database. Load all of this data to PostgreSQL, then presto: you have the ability to query from a relational database. 
+This project sets out to analyze & visualize weather patterns in cities across the world, to help you find the best vacation spots. Here's how it works:
+
+
 
 
 ### Built With
@@ -92,11 +94,13 @@ To get a local copy up and running follow these simple steps.
 
 1) Install gmaps and obtain an API key
 
-2) Install citipy
+2) Make an account to obtain an API key from openweathermap.org
 
-3) Install Pandas, numpy, matplotlib, scipy
+3) Install citipy
 
-4) Install Jupyter Notebook
+4) Install Pandas, numpy, matplotlib, scipy
+
+5) Install Jupyter Notebook
 
 
 ### Installation
@@ -107,26 +111,31 @@ git clone https://github.com/lsebahar/Vacation-Weather-Report-Generator.git
 ```
 
 
-2) Add to the "Code" folder a config.py file which contains the variable api_key (for your gmaps key) as well as the connection string to your postgreSQL application. 
-<img src="Images/config_image.png" alt="Logo" width="100" height="100">
-
-```sh
-api_key = 'apikeyhere'
-```
+2) Add to the "VacationPy" & "WeatherPy" folders a config.py file which contains the variable g_key (for your gmaps key) as well as a weather_api_key 
 
 
-3) Add your CSV files to the "Netflix_Data" folder, and align with the code in "Code/ETL-Script.ipynb" (e.g. "User1.csv")
 
-4) Run the Jupyter Notebook cells 
+3) Run the WeatherPy Jupyter Notebook file (all of the cells)
+
+
+4) Then, run the VacationPy file
+
+
+5) These should generate various charts which will help you understand where the weather is good and when!
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Now you can query using SQL! 
+Check out the warmest spots in the Northern Hemisphere: 
 
-<img src="Images/Latitude_vs_Temp_northhemi.png" alt="Logo" width="200" height="200">
+<img src="Images/Latitude_vs_Temp_northhemi.png" alt="Logo" width="300" height="200">
 
+
+
+Or how Humidity correlates with Latitude:
+
+<img src="Images/Latitude_vs_Humidity_all.png" alt="Logo" width="300" height="200">
 
 
 <!-- ROADMAP -->
