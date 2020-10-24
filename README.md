@@ -83,7 +83,7 @@ This project sets out to analyze & visualize weather patterns in cities across t
 
 3) Perform calls to openweathermap API to get weather data on those cities
 
-<img src="Images/z_api_call" alt="Logo" width="300" height="200">
+<img src="Images/z_api_call.png" alt="Logo" width="300" height="200">
 
 
 4) Store results in a dataframe
